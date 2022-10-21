@@ -9,3 +9,8 @@ When you add Query Block in page, you can see the current post in result of quer
 
 This plugin, parse html for remove current post in query block.
 
+## how to use it
+
+Just add class ```wpp-related-query``` in your query loop block.
+
+![add classe in query loop block](./classes-related.png)
