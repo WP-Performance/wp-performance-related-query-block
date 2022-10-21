@@ -21,5 +21,5 @@ require_once(dirname(__FILE__) . '/inc/parser.php');
 // only front
 if (!is_admin()) {
     // test with hook send_headers
-    add_action('send_headers', 'WPPerfomance\inc\parser\parsing_start');
+    add_action('send_headers', 'WPPerformance\RelatedQueryBlock\inc\parser\parsing_start');
 }

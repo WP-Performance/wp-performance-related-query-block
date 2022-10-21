@@ -35,7 +35,6 @@ function parse($string)
 function parseQueryRelated(\DOMXpath $xpath): void
 {
     $id = get_the_ID();
-
     if ($id) {
         $posts = $xpath->query("//*[contains(@class, 'wpp-related-query')]/ul/li[contains(@class, ' post-{$id} ')]");
         foreach ($posts as $key => $node) {
