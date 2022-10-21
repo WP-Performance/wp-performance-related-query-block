@@ -1,6 +1,6 @@
 <?php
 
-namespace WPPerfomance\RemoveLazy;
+namespace WPPerfomance\RelatedQueryBlock;
 
 /**
  * Plugin Name:       Related Query Block

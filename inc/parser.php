@@ -1,6 +1,6 @@
 <?php
 
-namespace WPPerfomance\inc\parser;
+namespace WPPerformance\RelatedQueryBlock\inc\parser;
 
 /** determine if string is json */
 function isJSON($string)
