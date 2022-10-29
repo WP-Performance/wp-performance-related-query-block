@@ -20,7 +20,7 @@ function parse($string)
     // hide error syntax warning
     libxml_use_internal_errors(true);
 
-    $document->loadHTML($string);
+    $document->loadHTML(mb_convert_encoding($string, 'HTML-ENTITIES', 'UTF-8'));
     $xpath = new \DOMXpath($document);
 
     parseQueryRelated($xpath);
